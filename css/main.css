@@ -388,4 +388,93 @@ template {
   font-weight: 500;
   color: black;
 }
+
+.contact {
+  min-width: 1300px;
+  background-image: url(./../../image/buldug.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-bottom: 117px;
+}
+
+.contact__text {
+  font-family: 'Futura PT', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.contact__tittle {
+  width: 500px;
+  margin-bottom: 117px;
+  font-family: 'Futura PT', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.contact__list {
+  width: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.contact__date {
+  margin: 0;
+  font-family: 'Futura PT', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.contact__date-link {
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 19px;
+}
+
+.contact__date-link:hover {
+  color: #FFBD54;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.contact__date-link:active {
+  color: #333333;
+  opacity: 0.6;
+  -webkit-transition: 0s ease;
+  transition: 0s ease;
+}
+
+.contact__img {
+  margin-bottom: 28px;
+}
+
+.nayti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nayti__heading {
+  background-image: url(./../../image/bg-iz.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 750px;
+}
 /*# sourceMappingURL=main.css.map */

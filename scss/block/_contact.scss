@@ -1,0 +1,65 @@
+.contact{
+    min-width: 1300px;
+    background-image: url(./../../image/buldug.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: right;
+    margin-bottom: 117px;
+
+    &__text {
+        font-family: 'Futura PT', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+    }
+
+    &__tittle {
+        width: 500px;
+        margin-bottom: 117px;
+        font-family: 'Futura PT', 'Arial', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+
+    &__list {
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+    &__date {
+        margin: 0;
+        font-family: 'Futura PT', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        
+        &-link {
+            text-decoration: none;
+            color: #333333;
+            margin-bottom: 19px;
+
+            &:hover{ 
+                color: #FFBD54;
+                transition: 0.2s ease;
+            }
+            &:active{           
+                color: #333333;
+                opacity: 0.6;
+                transition: 0s ease;
+            }
+        }
+    }
+
+    &__img {
+        margin-bottom: 28px;
+    }
+}
