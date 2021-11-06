@@ -1,0 +1,24 @@
+
+
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.header__list{
+   & li:not(:first-child){
+       margin-left: 55px;
+   }
+}
+.header__item{
+    list-style: none;
+    & a{
+       text-decoration: none;
+       font-size: 16px;
+       line-height: 20px;
+       font-weight: 500;
+       color: black;
+    }
+}
